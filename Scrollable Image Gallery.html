@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            font-size: 1.5rem;
+            padding: 1rem;
+        }
+        body{
+            background-color: lawngreen;
+            padding: 1rem;
+
+        }
+        header h1{
+            color: black ;
+            text-align: center;
+            font-size: 2.5rem;
+        }
+        nav{
+            background-color: antiquewhite;
+            padding: 2rem;
+        }
+        ul{
+            display: flex;
+            flex-direction: row ;
+            justify-content: space-evenly;
+        }   
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 2rem;
+            padding: 2.5rem;
+        }
+        a:hover{background-color: peru;}
+
+        section{
+            padding: 2rem;
+        }
+        
+
+      
+        
+        .column {
+            float: left;
+            width: 33.3%;
+            margin-bottom: 16px;
+            padding: 1rem;
+          }
+          
+          /* Display the columns below each other instead of side by side on small screens */
+          @media screen and (max-width: 650px) {
+            .column {
+              width: 100%;
+              display: block;
+            }
+          }
+          
+          /* Add some shadows to create a card effect */
+          .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          }
+          
+          /* Some left and right padding inside the container */
+          .container {
+            padding: 1rem;
+          }
+          
+          /* Clear floats */
+          .container::after, .row::after {
+            content: "";
+            clear: both;
+            display: table;
+          }
+          
+          .title {
+            color: grey;
+          }
+          
+          .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+          }
+          
+          .button:hover {
+            background-color: #555;
+          }
+          
+    </style>
+</head>
+<div>
+    <header>
+        <h1> Scrollable Image Gallery</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/Random Photos.html" target="_blank">Random Photos</a></li>
+            <li><a href="/Cousins.html" target="_blank">Cousins</a></li>
+            <li><a href="/Graduation.html" target="_blank">Graduation</a></li>
+
+        </ul>
+    </nav>
+    <center>
+        <section>
+            <h1> RANDOM PHOTOS</h1>
+        </section>
+        <div class="row">
+            <div class="column">
+                <div class="container">
+                  <h2>Gee Ann Rodil</h2>
+                  <p class="title">CEO &amp; Founder</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>example@example.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="column">
+                <div class="container">
+                  <h2>John Timothy Gandeza</h2>
+                  <p class="title">Art Director</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>example@example.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="column">
+                <div class="container">
+                  <h2>Christian Leocario</h2>
+                  <p class="title">Designer</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>example@example.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+                <div class="container">
+                  <h2>Sebastian Manilag</h2>
+                  <p class="title">Designer</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>example@example.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+                <div class="container">
+                  <h2>Raicel Fontilla</h2>
+                  <p class="title">Designer</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>example@example.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+                <div class="container">
+                  <h2>Sanny Cyruz Regalado</h2>
+                  <p class="title">Designer</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>example@example.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+                <div class="container">
+                  <h2>Jianne Mae Hutalle</h2>
+                  <p class="title">Designer</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>example@example.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+                <div class="container">
+                  <h2>Bernard T. Lorenzo</h2>
+                  <p class="title">Designer</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>example@example.com</p>
+                  <p><button class="button">Contact</button></p><br>
+                </div>
+              </div>
+            </div>
+            
+        
+        
+          
+    </center>
+    
+</body>
+</html>
